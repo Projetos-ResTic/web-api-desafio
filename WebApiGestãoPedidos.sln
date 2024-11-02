@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiGestãoPedidos", "WebApiGestãoPedidos\WebApiGestãoPedidos.csproj", "{FB4A2560-74AD-49E6-B351-76469A2C7C60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB4A2560-74AD-49E6-B351-76469A2C7C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB4A2560-74AD-49E6-B351-76469A2C7C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB4A2560-74AD-49E6-B351-76469A2C7C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB4A2560-74AD-49E6-B351-76469A2C7C60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19BEA64E-9E7A-4CF4-9465-77EBB35328A9}
+	EndGlobalSection
+EndGlobal
