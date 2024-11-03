@@ -140,3 +140,4 @@ D:\ResTic\WebApiGestãoPedidos\WebApiGestãoPedidos\obj\Debug\net8.0\refint\WebA
 D:\ResTic\WebApiGestãoPedidos\WebApiGestãoPedidos\obj\Debug\net8.0\WebApiGestãoPedidos.pdb
 D:\ResTic\WebApiGestãoPedidos\WebApiGestãoPedidos\obj\Debug\net8.0\WebApiGestãoPedidos.genruntimeconfig.cache
 D:\ResTic\WebApiGestãoPedidos\WebApiGestãoPedidos\obj\Debug\net8.0\ref\WebApiGestãoPedidos.dll
+D:\ResTic\WebApiGestãoPedidos\WebApiGestãoPedidos\obj\Debug\net8.0\WebApiGestãoPedidos.sourcelink.json

@@ -3,52 +3,24 @@
   "WorkspaceRootPath": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|d:\\restic\\webapigest\u00E3opedidos\\webapigest\u00E3opedidos\\migrations\\20241102105618_primeira.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|solutionrelative:webapigest\u00E3opedidos\\migrations\\20241102105618_primeira.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|d:\\restic\\webapigest\u00E3opedidos\\webapigest\u00E3opedidos\\controllers\\tipoprodutocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|solutionrelative:webapigest\u00E3opedidos\\controllers\\tipoprodutocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|d:\\restic\\webapigest\u00E3opedidos\\webapigest\u00E3opedidos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|solutionrelative:webapigest\u00E3opedidos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|d:\\restic\\webapigest\u00E3opedidos\\webapigest\u00E3opedidos\\controllers\\statuspedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|solutionrelative:webapigest\u00E3opedidos\\controllers\\statuspedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|d:\\restic\\webapigest\u00E3opedidos\\webapigest\u00E3opedidos\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|solutionrelative:webapigest\u00E3opedidos\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|d:\\restic\\webapigest\u00E3opedidos\\webapigest\u00E3opedidos\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|solutionrelative:webapigest\u00E3opedidos\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|d:\\restic\\webapigest\u00E3opedidos\\webapigest\u00E3opedidos\\models\\produtomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|solutionrelative:webapigest\u00E3opedidos\\models\\produtomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|d:\\restic\\webapigest\u00E3opedidos\\webapigest\u00E3opedidos\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|solutionrelative:webapigest\u00E3opedidos\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|d:\\restic\\webapigest\u00E3opedidos\\webapigest\u00E3opedidos\\models\\itempedidomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|solutionrelative:webapigest\u00E3opedidos\\models\\itempedidomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|d:\\restic\\webapigest\u00E3opedidos\\webapigest\u00E3opedidos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|solutionrelative:webapigest\u00E3opedidos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|d:\\restic\\webapigest\u00E3opedidos\\webapigest\u00E3opedidos\\models\\tipoprodutomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|solutionrelative:webapigest\u00E3opedidos\\models\\tipoprodutomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|d:\\restic\\webapigest\u00E3opedidos\\webapigest\u00E3opedidos\\models\\statuspedidomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|solutionrelative:webapigest\u00E3opedidos\\models\\statuspedidomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|d:\\restic\\webapigest\u00E3opedidos\\webapigest\u00E3opedidos\\models\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|solutionrelative:webapigest\u00E3opedidos\\models\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|d:\\restic\\webapigest\u00E3opedidos\\webapigest\u00E3opedidos\\models\\pedidomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|solutionrelative:webapigest\u00E3opedidos\\models\\pedidomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|d:\\restic\\webapigest\u00E3opedidos\\webapigest\u00E3opedidos\\models\\clientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|solutionrelative:webapigest\u00E3opedidos\\models\\clientemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|d:\\restic\\webapigest\u00E3opedidos\\webapigest\u00E3opedidos\\enum\\statuspedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|solutionrelative:webapigest\u00E3opedidos\\enum\\statuspedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|d:\\restic\\webapigest\u00E3opedidos\\webapigest\u00E3opedidos\\controllers\\itempedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|solutionrelative:webapigest\u00E3opedidos\\controllers\\itempedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,157 +35,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20241102105618_primeira.cs",
-              "DocumentMoniker": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Migrations\\20241102105618_primeira.cs",
-              "RelativeDocumentMoniker": "WebApiGest\u00E3oPedidos\\Migrations\\20241102105618_primeira.cs",
-              "ToolTip": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Migrations\\20241102105618_primeira.cs",
-              "RelativeToolTip": "WebApiGest\u00E3oPedidos\\Migrations\\20241102105618_primeira.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAAAgwAYAAAABAAAA",
+              "Title": "TipoProdutoController.cs",
+              "DocumentMoniker": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Controllers\\TipoProdutoController.cs",
+              "RelativeDocumentMoniker": "WebApiGest\u00E3oPedidos\\Controllers\\TipoProdutoController.cs",
+              "ToolTip": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Controllers\\TipoProdutoController.cs*",
+              "RelativeToolTip": "WebApiGest\u00E3oPedidos\\Controllers\\TipoProdutoController.cs*",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwC8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T10:56:20.149Z",
+              "WhenOpened": "2024-11-03T08:49:39.286Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\appsettings.json",
-              "RelativeDocumentMoniker": "WebApiGest\u00E3oPedidos\\appsettings.json",
-              "ToolTip": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\appsettings.json",
-              "RelativeToolTip": "WebApiGest\u00E3oPedidos\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-02T10:45:43.196Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Program.cs",
-              "RelativeDocumentMoniker": "WebApiGest\u00E3oPedidos\\Program.cs",
-              "ToolTip": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Program.cs",
-              "RelativeToolTip": "WebApiGest\u00E3oPedidos\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA1AAAA",
+              "Title": "StatusPedidoController.cs",
+              "DocumentMoniker": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Controllers\\StatusPedidoController.cs",
+              "RelativeDocumentMoniker": "WebApiGest\u00E3oPedidos\\Controllers\\StatusPedidoController.cs",
+              "ToolTip": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Controllers\\StatusPedidoController.cs*",
+              "RelativeToolTip": "WebApiGest\u00E3oPedidos\\Controllers\\StatusPedidoController.cs*",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAiwCwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T10:44:19.549Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ResponseModel.cs",
-              "DocumentMoniker": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Models\\ResponseModel.cs",
-              "RelativeDocumentMoniker": "WebApiGest\u00E3oPedidos\\Models\\ResponseModel.cs",
-              "ToolTip": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Models\\ResponseModel.cs",
-              "RelativeToolTip": "WebApiGest\u00E3oPedidos\\Models\\ResponseModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T10:42:37.499Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "StatusPedido.cs",
-              "DocumentMoniker": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Enum\\StatusPedido.cs",
-              "RelativeDocumentMoniker": "WebApiGest\u00E3oPedidos\\Enum\\StatusPedido.cs",
-              "ToolTip": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Enum\\StatusPedido.cs",
-              "RelativeToolTip": "WebApiGest\u00E3oPedidos\\Enum\\StatusPedido.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T10:41:38.255Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TipoProdutoModel.cs",
-              "DocumentMoniker": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Models\\TipoProdutoModel.cs",
-              "RelativeDocumentMoniker": "WebApiGest\u00E3oPedidos\\Models\\TipoProdutoModel.cs",
-              "ToolTip": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Models\\TipoProdutoModel.cs",
-              "RelativeToolTip": "WebApiGest\u00E3oPedidos\\Models\\TipoProdutoModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T10:38:06.031Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProdutoModel.cs",
-              "DocumentMoniker": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Models\\ProdutoModel.cs",
-              "RelativeDocumentMoniker": "WebApiGest\u00E3oPedidos\\Models\\ProdutoModel.cs",
-              "ToolTip": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Models\\ProdutoModel.cs",
-              "RelativeToolTip": "WebApiGest\u00E3oPedidos\\Models\\ProdutoModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T10:36:33.144Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ItemPedidoModel.cs",
-              "DocumentMoniker": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Models\\ItemPedidoModel.cs",
-              "RelativeDocumentMoniker": "WebApiGest\u00E3oPedidos\\Models\\ItemPedidoModel.cs",
-              "ToolTip": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Models\\ItemPedidoModel.cs",
-              "RelativeToolTip": "WebApiGest\u00E3oPedidos\\Models\\ItemPedidoModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T10:34:49.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "StatusPedidoModel.cs",
-              "DocumentMoniker": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Models\\StatusPedidoModel.cs",
-              "RelativeDocumentMoniker": "WebApiGest\u00E3oPedidos\\Models\\StatusPedidoModel.cs",
-              "ToolTip": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Models\\StatusPedidoModel.cs",
-              "RelativeToolTip": "WebApiGest\u00E3oPedidos\\Models\\StatusPedidoModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T10:34:01.877Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PedidoModel.cs",
-              "DocumentMoniker": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Models\\PedidoModel.cs",
-              "RelativeDocumentMoniker": "WebApiGest\u00E3oPedidos\\Models\\PedidoModel.cs",
-              "ToolTip": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Models\\PedidoModel.cs",
-              "RelativeToolTip": "WebApiGest\u00E3oPedidos\\Models\\PedidoModel.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T10:26:15.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ClienteModel.cs",
-              "DocumentMoniker": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Models\\ClienteModel.cs",
-              "RelativeDocumentMoniker": "WebApiGest\u00E3oPedidos\\Models\\ClienteModel.cs",
-              "ToolTip": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Models\\ClienteModel.cs",
-              "RelativeToolTip": "WebApiGest\u00E3oPedidos\\Models\\ClienteModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T10:24:18.453Z",
+              "WhenOpened": "2024-11-03T08:49:27.746Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "WebApiGest\u00E3oPedidos\\Data\\AppDbContext.cs",
-              "ToolTip": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "WebApiGest\u00E3oPedidos\\Data\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAtAAAA",
+              "Title": "ProdutoController.cs",
+              "DocumentMoniker": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Controllers\\ProdutoController.cs",
+              "RelativeDocumentMoniker": "WebApiGest\u00E3oPedidos\\Controllers\\ProdutoController.cs",
+              "ToolTip": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Controllers\\ProdutoController.cs*",
+              "RelativeToolTip": "WebApiGest\u00E3oPedidos\\Controllers\\ProdutoController.cs*",
+              "ViewState": "AQIAABEAAAAAAAAAAADwvy4AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T10:15:23.194Z",
+              "WhenOpened": "2024-11-03T08:49:11.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PedidoController.cs",
+              "DocumentMoniker": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Controllers\\PedidoController.cs",
+              "RelativeDocumentMoniker": "WebApiGest\u00E3oPedidos\\Controllers\\PedidoController.cs",
+              "ToolTip": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Controllers\\PedidoController.cs",
+              "RelativeToolTip": "WebApiGest\u00E3oPedidos\\Controllers\\PedidoController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T08:48:59.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ItemPedidoController.cs",
+              "DocumentMoniker": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Controllers\\ItemPedidoController.cs",
+              "RelativeDocumentMoniker": "WebApiGest\u00E3oPedidos\\Controllers\\ItemPedidoController.cs",
+              "ToolTip": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Controllers\\ItemPedidoController.cs*",
+              "RelativeToolTip": "WebApiGest\u00E3oPedidos\\Controllers\\ItemPedidoController.cs*",
+              "ViewState": "AQIAABAAAAAAAAAAAADwvxoAAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T08:48:23.912Z",
               "EditorCaption": ""
             }
           ]
