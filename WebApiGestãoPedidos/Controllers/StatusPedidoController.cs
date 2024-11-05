@@ -15,29 +15,28 @@ namespace WebApiGestãoPedidos.Controllers
             _statusPedidoInterface = statusPedidoInterface;
         }
 
-        [HttpGet("ListarStatusPedidos")]
+        [HttpGet("status-pedidos")]
         public async Task<ActionResult<ResponseModel<List<StatusPedidoModel>>>> ListarStatusPedidos()
         {
             var statusPedido = await _statusPedidoInterface.ListarStatusPedidos();
             return Ok(statusPedido);
         }
 
-        [HttpPost("AdicionarStatusPedido")]
-        public async Task<ActionResult<ResponseModel<List<StatusPedidoModel>>>> AdicionarStatusPedido(StatusPedidoModel statusPedidoModel)
+        [HttpPost("adicionar/status-pedidos")]
+        public async Task<ActionResult<ResponseModel<List<StatusPedidoModel>>>> AdicionarStatusPedido([FromBody] StatusPedidoModel statusPedidoModel)
         {
             var statusPedido = await _statusPedidoInterface.AdicionarStatusPedido(statusPedidoModel);
             return Ok(statusPedido);
         }
 
-
-        [HttpPut("EditarStatusPedido")]
+        [HttpPut("editar/status-pedidos")]
         public async Task<ActionResult<ResponseModel<List<StatusPedidoModel>>>> EditarStatusPedido(StatusPedidoModel statusPedidoModel)
         {
             var statusPedido = await _statusPedidoInterface.EditarStatusPedido(statusPedidoModel);
             return Ok(statusPedido);
         }
 
-        [HttpDelete("ExcluirStatusPedido")]
+        [HttpDelete("excluir/status-pedidos")]
         public async Task<ActionResult<ResponseModel<List<PedidoModel>>>> ExcluirStatusPedido(int idStatusPedido)
         {
             var statusPedido = await _statusPedidoInterface.ExcluirStatusPedido(idStatusPedido);

@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|d:\\restic\\webapigest\u00E3opedidos\\webapigest\u00E3opedidos\\controllers\\tipoprodutocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|solutionrelative:webapigest\u00E3opedidos\\controllers\\tipoprodutocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|d:\\restic\\webapigest\u00E3opedidos\\webapigest\u00E3opedidos\\controllers\\statuspedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|solutionrelative:webapigest\u00E3opedidos\\controllers\\statuspedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|d:\\restic\\webapigest\u00E3opedidos\\webapigest\u00E3opedidos\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|solutionrelative:webapigest\u00E3opedidos\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|d:\\restic\\webapigest\u00E3opedidos\\webapigest\u00E3opedidos\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|solutionrelative:webapigest\u00E3opedidos\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|d:\\restic\\webapigest\u00E3opedidos\\webapigest\u00E3opedidos\\controllers\\itempedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|solutionrelative:webapigest\u00E3opedidos\\controllers\\itempedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|d:\\restic\\webapigest\u00E3opedidos\\webapigest\u00E3opedidos\\enum\\statuspedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB4A2560-74AD-49E6-B351-76469A2C7C60}|WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos.csproj|solutionrelative:webapigest\u00E3opedidos\\enum\\statuspedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,66 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TipoProdutoController.cs",
-              "DocumentMoniker": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Controllers\\TipoProdutoController.cs",
-              "RelativeDocumentMoniker": "WebApiGest\u00E3oPedidos\\Controllers\\TipoProdutoController.cs",
-              "ToolTip": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Controllers\\TipoProdutoController.cs*",
-              "RelativeToolTip": "WebApiGest\u00E3oPedidos\\Controllers\\TipoProdutoController.cs*",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAwwC8AAAAAAAAA",
+              "Title": "StatusPedido.cs",
+              "DocumentMoniker": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Enum\\StatusPedido.cs",
+              "RelativeDocumentMoniker": "WebApiGest\u00E3oPedidos\\Enum\\StatusPedido.cs",
+              "ToolTip": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Enum\\StatusPedido.cs",
+              "RelativeToolTip": "WebApiGest\u00E3oPedidos\\Enum\\StatusPedido.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T08:49:39.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StatusPedidoController.cs",
-              "DocumentMoniker": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Controllers\\StatusPedidoController.cs",
-              "RelativeDocumentMoniker": "WebApiGest\u00E3oPedidos\\Controllers\\StatusPedidoController.cs",
-              "ToolTip": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Controllers\\StatusPedidoController.cs*",
-              "RelativeToolTip": "WebApiGest\u00E3oPedidos\\Controllers\\StatusPedidoController.cs*",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAiwCwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T08:49:27.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProdutoController.cs",
-              "DocumentMoniker": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Controllers\\ProdutoController.cs",
-              "RelativeDocumentMoniker": "WebApiGest\u00E3oPedidos\\Controllers\\ProdutoController.cs",
-              "ToolTip": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Controllers\\ProdutoController.cs*",
-              "RelativeToolTip": "WebApiGest\u00E3oPedidos\\Controllers\\ProdutoController.cs*",
-              "ViewState": "AQIAABEAAAAAAAAAAADwvy4AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T08:49:11.443Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PedidoController.cs",
-              "DocumentMoniker": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Controllers\\PedidoController.cs",
-              "RelativeDocumentMoniker": "WebApiGest\u00E3oPedidos\\Controllers\\PedidoController.cs",
-              "ToolTip": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Controllers\\PedidoController.cs",
-              "RelativeToolTip": "WebApiGest\u00E3oPedidos\\Controllers\\PedidoController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T08:48:59.048Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ItemPedidoController.cs",
-              "DocumentMoniker": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Controllers\\ItemPedidoController.cs",
-              "RelativeDocumentMoniker": "WebApiGest\u00E3oPedidos\\Controllers\\ItemPedidoController.cs",
-              "ToolTip": "D:\\ResTic\\WebApiGest\u00E3oPedidos\\WebApiGest\u00E3oPedidos\\Controllers\\ItemPedidoController.cs*",
-              "RelativeToolTip": "WebApiGest\u00E3oPedidos\\Controllers\\ItemPedidoController.cs*",
-              "ViewState": "AQIAABAAAAAAAAAAAADwvxoAAABrAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T08:48:23.912Z",
+              "WhenOpened": "2024-11-05T17:26:11.405Z",
               "EditorCaption": ""
             }
           ]

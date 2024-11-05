@@ -40,6 +40,32 @@ namespace WebApiGestãoPedidos.Services.Pedido
             }
         }
 
+        public async Task<ResponseModel<PedidoModel>> BuscarPedidoPorId(int idPedido)
+        {
+            ResponseModel<PedidoModel> resposta = new ResponseModel<PedidoModel>();
+
+            try
+            {
+                var pedido = await _context.Pedido.FirstOrDefaultAsync(pedidoBanco => pedidoBanco.Id == idPedido);
+                if (pedido == null)
+                {
+                    resposta.Mensagem = "Nenhum registro de pedido localizado!";
+                    return resposta;
+                }
+
+                resposta.Dados = pedido;
+                resposta.Mensagem = "Pedido localizado!";
+                return resposta;
+
+            }
+            catch (Exception ex)
+            {
+                resposta.Mensagem = ex.Message;
+                resposta.Status = false;
+                return resposta;
+            }
+        }
+
         public async Task<ResponseModel<List<PedidoModel>>> EditarPedido(PedidoEdicaoDto pedidoEdicaoDto)
         {
             ResponseModel<List<PedidoModel>> resposta = new ResponseModel<List<PedidoModel>>();

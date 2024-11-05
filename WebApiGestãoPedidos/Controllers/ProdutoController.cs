@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using WebApiGestãoPedidos.Dto.Produto;
 using WebApiGestãoPedidos.Models;
+using WebApiGestãoPedidos.Services.Pedido;
 using WebApiGestãoPedidos.Services.Produto;
 
 namespace WebApiGestãoPedidos.Controllers
@@ -16,14 +17,22 @@ namespace WebApiGestãoPedidos.Controllers
             _produtoInterface = produtoInterface;
         }
 
-        [HttpGet("ListarProduto")]
+        [HttpGet("produtos")]
         public async Task<ActionResult<ResponseModel<List<ProdutoModel>>>> ListarProduto()
         {
             var produtos = await _produtoInterface.ListarProduto();
             return Ok(produtos);
         }
 
-        [HttpPost("AdicionarProduto")]
+        [HttpGet("produtos/{idProduto}")]
+        public async Task<ActionResult<ResponseModel<ProdutoModel>>> BuscarProdutoPorId(int idProduto)
+        {
+            var produto = await _produtoInterface.BuscarProdutoPorId(idProduto);
+            return Ok(produto);
+        }
+
+
+        [HttpPost("adicionar/produtos")]
         public async Task<ActionResult<ResponseModel<List<ProdutoModel>>>> AdicionarProduto(ProdutoCriacaoDto produtoCriacaoDto)
         {
             var produtos = await _produtoInterface.AdicionarProduto(produtoCriacaoDto);
@@ -31,7 +40,7 @@ namespace WebApiGestãoPedidos.Controllers
         }
 
 
-        [HttpPut("EditarProduto")]
+        [HttpPut("editar/produtos")]
         public async Task<ActionResult<ResponseModel<List<ProdutoModel>>>> EditarProduto(ProdutoEdicaoDto produtoEdicaoDto)
         {
             var produtos = await _produtoInterface.EditarProduto(produtoEdicaoDto);
@@ -39,7 +48,7 @@ namespace WebApiGestãoPedidos.Controllers
         }
 
 
-        [HttpDelete("ExcluirProduto")]
+        [HttpDelete("deletar/produtos")]
         public async Task<ActionResult<ResponseModel<List<ProdutoModel>>>> ExcluirProduto(int idProduto)
         {
             var produtos = await _produtoInterface.ExcluirProduto(idProduto);

@@ -40,6 +40,32 @@ namespace WebApiGestãoPedidos.Services.Produto
             }
         }
 
+        public async Task<ResponseModel<ProdutoModel>> BuscarProdutoPorId(int idProduto)
+        {
+            ResponseModel<ProdutoModel> resposta = new ResponseModel<ProdutoModel>();
+
+            try
+            {
+                var produto = await _context.Produto.FirstOrDefaultAsync(produtoBanco => produtoBanco.Id == idProduto);
+                if (produto == null)
+                {
+                    resposta.Mensagem = "Nenhum registro de produto localizado!";
+                    return resposta;
+                }
+
+                resposta.Dados = produto;
+                resposta.Mensagem = "Produto localizado!";
+                return resposta;
+
+            }
+            catch (Exception ex)
+            {
+                resposta.Mensagem = ex.Message;
+                resposta.Status = false;
+                return resposta;
+            }
+        }
+
         public async Task<ResponseModel<List<ProdutoModel>>> EditarProduto(ProdutoEdicaoDto produtoEdicaoDto)
         {
             ResponseModel<List<ProdutoModel>> resposta = new ResponseModel<List<ProdutoModel>>();

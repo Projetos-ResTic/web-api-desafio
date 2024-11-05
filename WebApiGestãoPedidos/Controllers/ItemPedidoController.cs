@@ -16,14 +16,14 @@ namespace WebApiGestãoPedidos.Controllers
             _itemPedidoInterface = itemPedidoInterface;
         }
 
-        [HttpGet("ListarItemPedido")]
+        [HttpGet("itens-pedidos")]
         public async Task<ActionResult<ResponseModel<List<ItemPedidoModel>>>> ListarItemPedido()
         {
             var itemPedido = await _itemPedidoInterface.ListarItemPedido();
             return Ok(itemPedido);
         }
 
-        [HttpPost("AdicionarItemPedido")]
+        [HttpPost("adicionar/itens-pedidos")]
         public async Task<ActionResult<ResponseModel<List<ItemPedidoModel>>>> AdicionarItemPedido(ItemPedidoDto itemPedidoCriacaoDto)
         {
             var itemPedido = await _itemPedidoInterface.AdicionarItemPedido(itemPedidoCriacaoDto);
@@ -31,14 +31,14 @@ namespace WebApiGestãoPedidos.Controllers
         }
 
 
-        [HttpPut("EditarItemPedido")]
+        [HttpPut("editar/itens-pedidos")]
         public async Task<ActionResult<ResponseModel<List<ItemPedidoModel>>>> EditarItemPedido(ItemPedidoDto itemPedidoEdicaoDto)
         {
             var itemPedido = await _itemPedidoInterface.EditarItemPedido(itemPedidoEdicaoDto);
             return Ok(itemPedido);
         }
 
-        [HttpDelete("ExcluirItemPedido")]
+        [HttpDelete("deletar/itens-pedidos")]
         public async Task<ActionResult<ResponseModel<List<PedidoModel>>>> ExcluirItemPedido(int produtoId, int pedidoId)
         {
             var itemPedido = await _itemPedidoInterface.ExcluirItemPedido(produtoId, pedidoId);

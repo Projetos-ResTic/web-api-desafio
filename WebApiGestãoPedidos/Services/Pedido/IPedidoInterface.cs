@@ -6,7 +6,7 @@ namespace WebApiGestãoPedidos.Services.Pedido
     public interface IPedidoInterface
     {
         Task<ResponseModel<List<PedidoModel>>> ListarPedidos();
-
+        Task<ResponseModel<PedidoModel>> BuscarPedidoPorId(int idPedido);
         Task<ResponseModel<List<PedidoModel>>> AdicionarPedido(PedidoCriacaoDto pedidoCriacaoDto);
 
         Task<ResponseModel<List<PedidoModel>>> EditarPedido(PedidoEdicaoDto pedidoEdicaoDto);

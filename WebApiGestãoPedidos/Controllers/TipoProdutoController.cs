@@ -15,14 +15,14 @@ namespace WebApiGestãoPedidos.Controllers
             _tipoProdutoInterface = tipoProdutoInterface;
         }
 
-        [HttpGet("ListarTipoProduto")]
+        [HttpGet("tipos-produtos")]
         public async Task<ActionResult<ResponseModel<List<TipoProdutoModel>>>> ListarTipoProduto()
         {
             var tipoProduto = await _tipoProdutoInterface.ListarTipoProduto();
             return Ok(tipoProduto);
         }
 
-        [HttpPost("AdicionarTipoProduto")]
+        [HttpPost("adicionar/tipos-produtos")]
         public async Task<ActionResult<ResponseModel<List<TipoProdutoModel>>>> AdicionarTipoProduto(TipoProdutoModel tipoProdutoModel)
         {
             var tipoProduto = await _tipoProdutoInterface.AdicionarTipoProduto(tipoProdutoModel);
@@ -30,14 +30,14 @@ namespace WebApiGestãoPedidos.Controllers
         }
 
 
-        [HttpPut("EditarTipoProduto")]
+        [HttpPut("editar/tipos-produtos")]
         public async Task<ActionResult<ResponseModel<List<TipoProdutoModel>>>> EditarTipoProduto(TipoProdutoModel tipoProdutoModel)
         {
             var tipoProduto = await _tipoProdutoInterface.EditarTipoProduto(tipoProdutoModel);
             return Ok(tipoProduto);
         }
 
-        [HttpDelete("ExcluirTipoProduto")]
+        [HttpDelete("excluir/tipos-produtos")]
         public async Task<ActionResult<ResponseModel<List<TipoProdutoModel>>>> ExcluirTipoProduto(int idTipoProduto)
         {
             var tipoProduto = await _tipoProdutoInterface.ExcluirTipoProduto(idTipoProduto);

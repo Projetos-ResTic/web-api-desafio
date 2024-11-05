@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WebApiGestãoPedidos.Dto.Pedido;
+using WebApiGestãoPedidos.Enum;
 using WebApiGestãoPedidos.Models;
+using WebApiGestãoPedidos.Services.Cliente;
 using WebApiGestãoPedidos.Services.Pedido;
 
 namespace WebApiGestãoPedidos.Controllers
@@ -16,14 +18,22 @@ namespace WebApiGestãoPedidos.Controllers
             _pedidoInterface = pedidoInterface;
         }
 
-        [HttpGet("ListarPedidos")]
+        [HttpGet("pedidos")]
         public async Task<ActionResult<ResponseModel<List<PedidoModel>>>> ListarPedidos()
         {
             var pedidos = await _pedidoInterface.ListarPedidos();
             return Ok(pedidos);
         }
 
-        [HttpPost("AdicionarPedido")]
+        [HttpGet("pedidos/{idPedido}")]
+        public async Task<ActionResult<ResponseModel<PedidoModel>>> BuscarPedidoPorId(int idPedido)
+        {
+            var pedido = await _pedidoInterface.BuscarPedidoPorId(idPedido);
+            return Ok(pedido);
+        }
+
+
+        [HttpPost("adicionar/pedidos")]
         public async Task<ActionResult<ResponseModel<List<PedidoModel>>>> AdicionarPedido(PedidoCriacaoDto pedidoCriacaoDto)
         {
             var pedidos = await _pedidoInterface.AdicionarPedido(pedidoCriacaoDto);
@@ -31,7 +41,7 @@ namespace WebApiGestãoPedidos.Controllers
         }
 
 
-        [HttpPut("EditarPedido")]
+        [HttpPut("editar/pedidos")]
         public async Task<ActionResult<ResponseModel<List<PedidoModel>>>> EditarPedido(PedidoEdicaoDto pedidoEdicaoDto)
         {
             var pedidos = await _pedidoInterface.EditarPedido(pedidoEdicaoDto);
@@ -39,7 +49,7 @@ namespace WebApiGestãoPedidos.Controllers
         }
 
 
-        [HttpDelete("ExcluirPedido")]
+        [HttpDelete("excluir/pedidos")]
         public async Task<ActionResult<ResponseModel<List<PedidoModel>>>> ExcluirPedido(int idPedido)
         {
             var pedidos = await _pedidoInterface.ExcluirPedido(idPedido);

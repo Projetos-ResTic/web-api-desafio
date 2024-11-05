@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
+using WebApiGestãoPedidos.Enum;
 
 namespace WebApiGestãoPedidos.Models
 {
@@ -18,6 +19,8 @@ namespace WebApiGestãoPedidos.Models
         public StatusPedidoModel StatusPedido { get; set; } // Propriedade de navegação
         public DateTime DataPedido { get; set; }
 
+        [JsonIgnore]
+        public string NomeStatus => ((StatusPedido)StatusPedidoId).ToString();
 
         [JsonIgnore]
         public ICollection<ItemPedidoModel> ItemsPedido { get; set; }

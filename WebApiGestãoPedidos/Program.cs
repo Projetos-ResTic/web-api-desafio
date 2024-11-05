@@ -25,13 +25,12 @@ builder.Services.AddScoped<IStatusPedidoInterface, StatusPedidoService>();
 builder.Services.AddScoped<ITipoProdutoInterface, TipoProdutoService>();
 
 
-
-
 // conexão com o banco de dados
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
 
 
 var app = builder.Build();
