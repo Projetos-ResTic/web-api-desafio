@@ -18,18 +18,22 @@ O projeto visa desenvolver uma API funcional a partir de um modelo de banco de d
 1. **Clone o repositório**:
    ```bash
    git clone https://github.com/Projetos-ResTic/web-api-desafio.git
-2. Navegue até a pasta do projeto:
-  cd web-api-desafio
+2. Navegue até a pasta do projeto
+   ```bash
+     cd web-api-desafio
 
-3.Instale as dependências
-  dotnet restore
+3. **Instale as dependências**
+   ```bash
+      dotnet restore
 
-4.Configuração de Banco de Dados
-{
-  "ConnectionStrings": {
-    "DefaultConnection": "Server=SEU_SERVIDOR;Database=SEU_BANCO;User Id=SEU_USUARIO;Password=SUA_SENHA;"
-  }
-}
+4. **Configuração de Banco de Dados**
+   ```bash
+   {
+     "ConnectionStrings": {
+       "DefaultConnection": "Server=SEU_SERVIDOR;Database=SEU_BANCO;User Id=SEU_USUARIO;Password=SUA_SENHA;"
+     }
+   }
 
-5. Aplicar Migrações: Execute o comando abaixo para criar as tabelas no banco de dados
+5. **Aplicar Migrações: Execute o comando abaixo para criar as tabelas no banco de dados**
+```bash
 dotnet ef database update
